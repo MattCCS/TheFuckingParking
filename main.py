@@ -7,9 +7,10 @@ For Nat <3
 import datetime
 import pytz  # apparently very standard?
 
+from flask import Flask
+
 from nocache import nocache
 
-from flask import Flask
 
 app = Flask(__name__)
 
